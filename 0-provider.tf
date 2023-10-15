@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  profile = "terraform"
+  # profile = "terraform"
 }
 
 variable "cluster_name" {
@@ -24,7 +24,7 @@ terraform {
     bucket  = "fnf-terraform-fmr"
     key     = "fnf-terraform-fmr.tfstate"
     region  = "us-east-1"
-    profile = "terraform"
+    # profile = "terraform"
   }
 }
 
